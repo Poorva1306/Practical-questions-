@@ -1,0 +1,6 @@
+QUES 12- Write a code to print the last line of a text file "data.txt".
+
+
+SOLUTION-fin=open("data.txt","r")
+	 linelist=fin.readlines()
+	 print("last line=",linelist[-1])

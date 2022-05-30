@@ -1,0 +1,7 @@
+QUES 3- Pick a random character from a given String.
+
+SOLUTION-
+	import random
+	name = input("enter the name")
+	char = random.cho ice(name)
+	print("random char is ", char)

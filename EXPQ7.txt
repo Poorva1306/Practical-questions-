@@ -1,0 +1,10 @@
+QUES 7- Write a program to raise an exception during the run time of a program.
+
+
+SOLUTION- l=int(input("enter"))
+	  u=int(input("enter"))
+	  for i in range(l,u+1):
+		a=i
+		for j in range(2,a//2):
+			if(a%j)!=0:
+				raise Exception("Prime Exception")
