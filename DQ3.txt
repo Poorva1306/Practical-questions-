@@ -1,0 +1,8 @@
+QUES 3- Write a Python script to sort (ascending and descending) a dictionary by value.
+
+
+Solution-
+	d = {0:10, 1:20}
+	print(d)
+	d.update({2:30})
+	print(d
